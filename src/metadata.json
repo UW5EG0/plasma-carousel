@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "radiomaniac.dp@gmail.com",
+                "Name": "UW5EG0"
+            }
+        ],
+        "Category": "Windows and Tasks",
+        "Description": "Shows one of the contained widgets at a time, with arrows to switch (fork of Grouping Plasmoid)",
+        "Description[uk]": "Показує один із вкладених віджетів за раз, зі стрілками для перемикання (форк «Плазмоїда групування»)",
+        "Icon": "view-carousel",
+        "License": "GPL-2.0+",
+        "Name": "Carousel Container",
+        "Name[uk]": "Карусель-контейнер"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-ContainmentType": "CustomEmbedded"
+}
