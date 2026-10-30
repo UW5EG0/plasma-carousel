@@ -98,3 +98,12 @@ src/qml/config.qml, ConfigGeneral.qml   сторінка налаштувань
   геометрію); поточний — за `wrapper.StackLayout.index`.
 - Попап (`PlasmaCore.AppletPopup`): `expanded = true` створює `fullRepresentationItem`, який
   переноситься в попап; при закритті — у невидимий storage (як `preloadedStorage` у systray).
+
+## Ліцензія та походження
+
+GPL-2.0-or-later (текст — у `COPYING`). Це форк аплета `applets/grouping` з
+[kdeplasma-addons](https://invent.kde.org/plasma/kdeplasma-addons) v6.6.6; частина коду попапу
+запозичена з системного трею в [plasma-workspace](https://invent.kde.org/plasma/plasma-workspace).
+Авторські права оригінальних авторів KDE (Sebastian Kügler, Marco Martin, David Edmundson та ін.)
+збережені в SPDX-заголовках відповідних файлів; файл(и) src/qml/main.qml — під LGPL-2.0-or-later, як в оригіналі.
+Зміни для каруселі — © 2026 UW5EG0.
